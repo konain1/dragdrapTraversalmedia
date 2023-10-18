@@ -1,0 +1,26 @@
+
+.empty{
+    height: 160px;
+    width: 160px;
+    background-color: orange;
+    display: inline-block;
+    margin: 10px;
+
+}
+.fill{
+    height: 150px;
+    width: 150px;
+    background-image: url('http://source.unsplash.com/random/150*150');
+    cursor: move;
+    top: 5px;
+    left: 5px;
+    position: relative;
+}
+
+.hovered{
+    background-color: greenyellow;
+    border-style: dashed;
+}
+.invisible{
+    display: none;
+}
